@@ -1,6 +1,11 @@
 #include <iostream>
 #include <random>
+
+#ifdef _WIN32
 #include <windows.h>
+#elif __unix__ || __APPLE__
+#include <unistd.h>
+#endif
 
 void printDoors(int car_door, int player_choice, int opened_door) {
     for (int i = 1; i <= 3; ++i) {
@@ -34,7 +39,11 @@ int main() {
         } while (opened_door == car_door || opened_door == player_choice);
 
         printDoors(car_door, player_choice, opened_door);
+        #ifdef _WIN32
         Sleep(0.0001);
+        #elif __unix__ || __APPLE__
+        usleep(100);
+        #endif
 
         int switch_choice;
         do {
