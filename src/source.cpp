@@ -18,7 +18,7 @@ void montiHole(){
     std::mt19937 gen(rd());
     std::uniform_int_distribution<> dis(1, 3);
 
-    const int trials = 10000;
+    const int trials = 100000;
     int switch_wins = 0;
     int stay_wins = 0;
 
