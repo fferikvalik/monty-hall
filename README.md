@@ -1,6 +1,10 @@
+ 
+
 # Monty Hall Problem Simulator
 
-This C++ program simulates the famous Monty Hall problem, a probability puzzle based on a game show scenario. 
+**This C++ program is now cross-platform!**
+
+This program simulates the famous Monty Hall problem, a probability puzzle based on a game show scenario. 
 
 ## Description
 
@@ -45,4 +49,3 @@ Winning by switching: 66.9%
 ## License
 
 This program is released under public lisence.
-
