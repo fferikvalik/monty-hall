@@ -31,3 +31,13 @@ The `<random>` library is used for generating random numbers. The `<windows.h>` 
 ## Example Output
 
 For the given code, the output will be similar to:
+| ?? | Goat | Car | [Player's choice: Door 3] 
+| Goat | ?? | Car | [Player's choice: Door 1] 
+| Car | Goat | ?? | [Player's choice: Door 2] 
+... 
+Winning by staying with initial choice: 33.2% 
+Winning by switching: 66.8%
+
+## License
+
+This program is released under public lisence.
