@@ -1,3 +1,4 @@
+
 # Monty Hall Problem Simulator
 
 **This C++ program simulates the famous Monty Hall problem, a probability puzzle based on a game show scenario.**
@@ -21,6 +22,15 @@ The program then checks if the player's initial choice or the switched choice ma
 Finally, it prints out the percentage of wins by staying with the initial choice and the percentage of wins by switching doors over all trials.
 
 The `<random>` library is used for generating random numbers. The `<windows.h>` or `<unistd.h>` header is included for a brief delay using `Sleep()` or `usleep()` function, respectively, depending on the platform, presumably for better visualization of the simulation.
+
+## Current Features
+
+- Simulates the Monty Hall problem
+- Runs a specified number of trials
+- Prints the state of the doors after the reveal
+- Allows the player to switch doors or stay with the initial choice
+- Tracks the number of wins by switching doors and staying with the initial choice
+- Calculates and prints the percentage of wins by switching doors and staying with the initial choice over all trials
 
 ## Usage
 
@@ -46,4 +56,4 @@ Winning by switching: 66.8%
 
 ## License
 
-This program is released under public lisence.
+This program is released under public license.
